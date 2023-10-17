@@ -21,7 +21,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="home-cv-right">
-                <p className="home-cv-right__text-resume">I'm trying to create a resume <br/> that shows what <br/> I'm capable of.</p>
+                <p className="home-cv-right__text-resume">I am trying to create a resume <br/> that shows what <br/> I am capable of.</p>
                 <p className="home-cv-right__text-motivated">Extremely motivated <br/> to be a part of your company <br/> to make projects together with your team.</p>
             </div>
         </section>
