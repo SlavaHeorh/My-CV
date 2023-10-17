@@ -1,7 +1,7 @@
 export default function Experience() {
     return (
         <section className="left-side-cv">
-            Experience
+            <h1>Experience</h1>
         </section>
     )
 }
