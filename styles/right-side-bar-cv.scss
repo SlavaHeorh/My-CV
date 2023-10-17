@@ -1,0 +1,46 @@
+.nav-bar {
+
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: .5s;
+  }
+
+  &__hover {
+    &:hover {
+      transition: .5s;
+      border-radius:  0 10px 10px 0;
+      width: 105%;
+    }
+  }
+
+  &__home {
+    background: goldenrod;
+    border-radius:  0 10px 0 0;
+  }
+  &__about {
+    background: gold;
+  }
+  &__skills {
+    background: yellowgreen;
+  }
+  &__exp {
+    background: orange;
+  }
+  &__edu {
+    background: olivedrab;
+  }
+  &__port {
+    background: olive;
+  }
+  &__contact {
+    background: orangered;
+  }
+  &__blog {
+    background: red;
+  }
+  &__pdf {
+    background: firebrick;
+  }
+}

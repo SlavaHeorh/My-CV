@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.cv-wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: burlywood;
+  border-radius: 10px;
+  position: relative;
+}
+
+.left-side-cv {
+  display: flex;
+  justify-content: space-between;
+  width: 78%;
+  padding: 30px;
+}
+
+.right-side-cv {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+}
+
+a {
+  width: 100%;
+  padding: 25px 25px;
+  text-decoration: none;
+}
+
+.social {
+  width: 100%;
+  padding: 20px;
+  background: darkred;
+  border-radius:  0 0 10px 0;
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+.svg-social {
+  color: white;
+  transition: .5s;
+  &:hover {
+    color: orange;
+  }
+}
+
+
+@import "./home-cv";
+@import "./right-side-bar-cv";
