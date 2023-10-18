@@ -31,26 +31,26 @@ export default function AboutMe() {
                 className="react-hook-form"
                 onSubmit={handleSubmit(onSubmit)}>
                 <input
-                    maxLength="35"
+
                     className="react-hook-form__input"
                     placeholder="Firstname"
                     {...register("firstName", { required: true })} />
                 {errors.firstName && <span>This field is required</span>}
                 <input
-                    maxLength="35"
+
                     className="react-hook-form__input"
                     placeholder="Lastname"
                     {...register("lastName", { required: true })} />
                 {errors.lastName && <span>This field is required</span>}
                 <input
                     type="email"
-                    maxLength="35"
+
                     className="react-hook-form__input"
                     placeholder="E-mail"
                     {...register("email", { required: true })} />
                 {errors.email && <span>This field is required</span>}
                 <textarea
-                    maxLength="255"
+
                     rows="5"
                     className="react-hook-form__textarea"
                     placeholder="About your Company"
