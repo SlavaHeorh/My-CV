@@ -12,6 +12,41 @@ body {
   margin: 0;
 }
 
+input {
+  outline: none;
+
+  :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+}
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+  color: #888b99;
+  transition: .5s;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: .5s;
+}
+
+textarea {
+  outline: none;
+}
+
+textarea::-webkit-input-placeholder {
+  opacity: 1;
+  color: #888b99;
+  transition: .5s;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: .5s;
+}
+
 .cv-wrapper {
   display: flex;
   height: 100vh;
@@ -77,3 +112,4 @@ a {
 
 @import "./home-cv";
 @import "./right-side-bar-cv";
+@import "./react-hook-form-cv";
