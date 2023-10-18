@@ -50,8 +50,6 @@ export default function AboutMe() {
                     {...register("email", { required: true })} />
                 {errors.email && <span>This field is required</span>}
                 <textarea
-
-                    rows="5"
                     className="react-hook-form__textarea"
                     placeholder="About your Company"
                     {...register("aboutCompany", { required: true})}/>
